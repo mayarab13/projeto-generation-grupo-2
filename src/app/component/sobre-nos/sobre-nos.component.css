@@ -1,19 +1,25 @@
 .cabecalho {
-    height: 43em;
-    background-image: url('../../../assets/images/animacao.gif');
-    background-size: cover;
+    height: 2em;
+    width: 80em;
+    background-image: url('../../../assets/images/animacao-gif.gif');
+    background-size: 50%;
+    margin-top: 5em;
 }
 
 #equipe {
-    color: #4097aa;
+    color: #fa9483;
     font-weight: bolder;
 }
 
 .sobre-nos {
     height: auto;
-    background:linear-gradient(to bottom, #fbfbfb, #4097aa);
+    background:linear-gradient(to bottom, #ffffff, #f3decab0);
     color: #2d4057;
-    font-weight: bold;
+    padding-bottom: 2em;
+}
+
+.txt{
+    font-size: 1.0em;;
 }
 
 #minibios {
@@ -39,7 +45,8 @@
 }
 
 .texto-minibio {
-    padding: 1em;
+    padding: 0.8em;
+    font-size: 0.9em;
     margin: 0;
 }
 
@@ -51,15 +58,16 @@
 }
 
 .estilo-foto { 
-    width: 18em; 
-    height: 18em;
+    width: 14em; 
+    height: 14em;
     margin: 0 auto;
 }
 
 #nossa-missao {
-    margin: 0em 4em;
+    margin: 3em 3em;
     text-align: center;
-    color: #4097aa;
+    color: #fa9483;
+    font-size: 1.5em;
     font-weight: bolder;
 }
 

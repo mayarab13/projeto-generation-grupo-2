@@ -34,7 +34,7 @@
                         <label for="form2">Telefone</label>
                     </div>
                     <div class="md-form form-sm">
-                        <i class="fa fa-comment prefix "></i>
+                        <i class="fa fa-unlock-alt prefix "></i>
                         <input type="password" id="form9" [(ngModel)]="usuario.senha"
                             [ngModelOptions]="{standalone: true}" (keyup)="forcaDaSenha()"
                             class="form-control form-control-sm" />
@@ -46,10 +46,10 @@
 
 
                     <div class="md-form form-sm">
-                        <i class="fa fa-envelope prefix"></i>
+                        <i class="fa fa-unlock-alt prefix"></i>
                         <input type="password" id="form10" (keyup)="verificaSenhasConferem()"
                             [(ngModel)]="confirmacaoSenha" [ngModelOptions]="{standalone: true}"
-                            class="form-control form-control-sm" [(ngModel)]="usuario.email" />
+                            class="form-control form-control-sm" />
                         <label for="form2">Confirmar senha:</label>
                     </div>
                     <div *ngIf="this.confirmacaoSenha.length >= 1 && this.usuario.senha !== this.confirmacaoSenha">
