@@ -1,0 +1,36 @@
+<div>
+  <div class="card p-4 cardSize d-flex center">
+    <div class="card-body">
+      <form class="form-group">
+        <div class="md-form">
+          <label for="validationServer01">Nome do Curso</label>
+          <input type="text" class="form-control" [(ngModel)]="curso.nome" name="nome" id="validationServer01" required>
+          <div class="valid-feedback">
+              OK
+          </div>
+        </div>
+        <div class="md-form">
+          <label for="validationServer02">URL da Imagem</label>
+          <input type="text" class="form-control" [(ngModel)]="curso.imagem" name="imagem" id="validationServer02" required>
+          <div class="valid-feedback">
+              OK
+          </div>
+        </div>
+        <div class="md-form">
+          <label for="validationServer03">Descrição</label>
+          <input type="text" class="form-control" [(ngModel)]="curso.descricao" name="descricao" required="" id="validationServer04"/>
+        </div>
+        <div class="md-form">
+          <label for="validationServer04">Preço do Curso</label>
+          <input type="text" class="form-control" [(ngModel)]="curso.valor" name="valor" required="" id="validatinServer04"/> 
+        </div>
+        <div class="md-form">
+          <label for="validationServer04">Duração do Curso</label>
+          <input type="text" class="form-control" [(ngModel)]="curso.duracao" name="duracao" required="" id="validatinServer04"/> 
+        </div>  
+        
+        <button (click)="cadastrarCurso()" class="btn btn-light" type="submit">Enviar</button>
+      </form>
+    </div> 
+  </div>
+</div>

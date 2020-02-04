@@ -1,0 +1,21 @@
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="my-4">Nossos cursos:<br/>
+    </h1>
+  
+    <div class="row">
+      <div *ngFor="let curso of cursos" class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a><img class="card-img-top" src="{{curso.imagem}}" alt=""></a>
+          <div class="card-body ">
+            <h4 class="card-title">
+              <a>{{curso.nome}}</a>
+            </h4>
+            <p class="card-text">{{curso.descricao}}</p> <p class="text-right">{{curso.valor}}</p>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>

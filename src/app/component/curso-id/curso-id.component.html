@@ -1,0 +1,33 @@
+<br><br><br><br>
+<input class="filestyle" type="number" placeholder="pesquisar" [(ngModel)]="id">
+<input  type="button" class="btn -outline-primary" (click)="findIdCursos()" value="Buscar"> <br><br>
+
+    <div class="search-id">
+
+        </div>
+        <section *ngIf="curso">
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                  <h3>{{curso.nome}}</h3>
+                  <img src="{{curso.imagem}}" class="img-fluid" style="width: 30rem; margin-top: 20px;">
+                <br><br><br>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="margin-top: 180px;">
+                  <div class="card border-light mb-3" style="max-width: 150rem;">
+                    <div class="card-header"></div>
+                    <div class="card-body text-secondary">
+                      <h5 class="card-title">{{curso.nome}}</h5>
+                      <p class="card-text">
+                        {{curso.descricao}}
+                      </p>
+                      <h3>{{curso.valor}}</h3>
+                      <button type="button" class="btn btn-outline-light" aria-live="comprar">
+                        <a href="#">Comprar</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>

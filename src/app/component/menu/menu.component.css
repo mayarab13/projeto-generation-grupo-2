@@ -1,0 +1,22 @@
+/*Formatação Navbar*/
+
+.nav-margin{
+   margin-right: 0.25em;
+}
+
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link  {
+   padding: 0.4em;
+   font-size: 0.8em;
+   margin-right: 0.1em; 
+}
+
+ul {
+  
+   background-color: #f8f9fa; /* mudança dia 31-01*/
+ }
+ 
+ li a:hover, .dropdown:hover .dropbtn {
+   background-color: #f3decac0; 
+ }
+ 

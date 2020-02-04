@@ -1,0 +1,88 @@
+body{
+    background-color: #ffffff;
+    margin: auto
+}
+
+.help-title{
+    text-align: center;
+    font-size: 3em;
+    color: #4097aa;
+    font-weight: bolder;
+    padding: 1.2em;
+  
+}
+
+
+/* Formatação Collapse */
+
+
+.collapse-title{
+    color: #4097aa;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.ask-title{
+    color: #4097aa;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card-header{
+    color: #008080;
+    font-size: 1em;
+}
+
+.answer-text{
+    color: #2d4057;
+}
+
+.card-body{
+    background-color:#f3deca85; /*mudado 31-01*/
+}
+
+.card .card-body .card-text{
+    font-size: 0.9em /*mudado 31-01*/
+}
+
+.white-text {
+    color: rgb(64, 151, 170)  !important;
+}
+
+.incon-fas{
+    color: rgb(64, 151, 170)  !important;
+
+}
+
+.rgba-black-strong{
+   color: rgba(0,0,0,0.2);
+}
+
+/* Formatação Formulario */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-title{
+    color: #4097aa;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.form-subtitle{
+    color: #4097aac7;
+}
+
+.fa{
+    color: #4097aa;
+}
+
+.card-image{
+    background-image: url(../../../assets/images/bg-ca.png);
+    background-size: 100%;
+
+}
+/*mudado 31-01 no HTML card-body ((<div class="card-body-1 rgba-light white-text z-depth-5)) -->> tirei o black*/

@@ -1,0 +1,111 @@
+<!--Modal: Login / Register Form-->
+<script>
+
+    $(document).ready(function () {
+        if (window.location.href.indexOf('#login') != -1) {
+            $('#login').modal('show');
+        }
+    });
+
+</script>
+
+
+
+
+<div class="modal" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+    <div class="modal-dialog cascading-modal" role="document">
+        <!--Content-->
+        <div class="modal-content">
+
+            <div class="login-logo">
+                <br><br>
+
+                <label>
+                    <h1 class="form-title">Faça seu login</h1>
+                </label>
+
+            </div>
+
+
+            <form class="col-xl-10 py-8 center-block">
+                <div class="md-form form-sm">
+                    <i class="fa fa-user prefix"></i>
+                    <input type="text" input [(ngModel)]="login.email" [ngModelOptions]="{standalone: true}" id="email"
+                        class="form-control form-control-sm" />
+                    <label for="form3" required>E-mail</label>
+                </div>
+                <div class="md-form form-sm">
+                    <i class="fa fa-envelope prefix"></i>
+                    <input type="text" id="senha" input [(ngModel)]="login.senha" [ngModelOptions]="{standalone: true}"
+                        class="form-control form-control-sm" required />
+                    <label for="form2">Senha</label>
+                </div>
+
+
+
+                <label>
+                    <input id="remember" type="checkbox" value="remember-me">Lembrar-me
+                </label>
+
+
+                <div class="text-center mt-4">
+                    <button class="btn btn-light" (click)="fazerLogin()">
+                        Enviar <i class="fa fa-paper-plane-o ml-1"></i>
+                    </button>
+                </div>
+            </form>
+            <div id="msgErro">
+                <p>Campo(s) obrigatório(s)</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="loginlogo">
+                    
+                        <form class="form-signin">
+                            <img id="logo" src="./../../assets/images/logo.PNG"
+                                alt="logo da empresa" width="200" height="200">
+    
+                            <h1 id="texto-login" class="h3 mb-3 font-weight-normal">Faça
+                                login em sua conta e progrAme.se</h1>
+    
+                            <label for="inputEmail" class="sr-only">E-mail</label>
+                            <input [(ngModel)]="login.email"
+                                [ngModelOptions]="{standalone: true}" type="email"
+                                id="inputEmail" class="form-control"
+                                placeholder="seuemail@email.com" required autofocus>
+                            <br>
+                            <label for="inputPassword" id="inputPassword"
+                                class="sr-only">Senha:</label>
+    
+                            <input [(ngModel)]="login.senha"
+                                [ngModelOptions]="{standalone: true}"
+                                type="password" id="inputPassword"
+                                class="form-control" placeholder="Senha" required>
+                            <div class="checkbox mb-3">
+                                <label>
+                                    <input id="remember" type="checkbox"
+                                        value="remember-me">Lembrar-me
+                                </label>
+                            </div>
+    
+                            <div id="msgErro"><p>Campo(s) obrigatório(s)</p></div>
+                            <button class="btn btn-lg btn-primary btn-block"
+                                type="submit" name="action" (click)="fazerLogin()">Entrar</button>
+                        </form>
+                    </div>
+                </div>
+    
+            </div>
+    -->

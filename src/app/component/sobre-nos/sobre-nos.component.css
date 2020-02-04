@@ -1,0 +1,68 @@
+.cabecalho {
+    height: 43em;
+    background-image: url('../../../assets/images/animacao.gif');
+    background-size: cover;
+}
+
+#equipe {
+    color: #4097aa;
+    font-weight: bolder;
+}
+
+.sobre-nos {
+    height: auto;
+    background:linear-gradient(to bottom, #fbfbfb, #4097aa);
+    color: #2d4057;
+    font-weight: bold;
+}
+
+#minibios {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.linha-minibio {
+    padding: 3em;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.info-minibio{
+    /* vertical-align: middle; */
+    height: 100%;
+    margin: auto 0;
+
+}
+.profissao {
+    font-size: 0.5em; 
+}
+
+.texto-minibio {
+    padding: 1em;
+    margin: 0;
+}
+
+.foto { /* info que vai centralizar foto */
+    display: flex;
+    display: -webkit-flex; /*navegador Safari */
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo-foto { 
+    width: 18em; 
+    height: 18em;
+    margin: 0 auto;
+}
+
+#nossa-missao {
+    margin: 0em 4em;
+    text-align: center;
+    color: #4097aa;
+    font-weight: bolder;
+}
+
+#botaotopo {
+    margin: 0 auto;
+}
