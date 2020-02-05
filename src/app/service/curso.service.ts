@@ -10,7 +10,7 @@ export class CursoService {
   constructor(private http: HttpClient) { }
 
   getAll() {
-    return this.http.get("http://localhost:8080/curso");
+    return this.http.get('http://localhost:8080/curso');
   }
 
   getById(id: number) {

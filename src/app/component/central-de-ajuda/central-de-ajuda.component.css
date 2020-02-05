@@ -6,7 +6,7 @@ body{
 .help-title{
     text-align: center;
     font-size: 3em;
-    color: #83c9bc ;
+    color: #4097AA ;
     font-weight: bolder;
     padding: 1.2em;
   
@@ -23,7 +23,7 @@ body{
 }
 
 .ask-title{
-    color: #83c9bc ;
+    color: #4097AA ;
     font-size: 1.0em;
     font-weight: bold;
 }
@@ -39,7 +39,13 @@ body{
 }
 
 .card-body{
-    background-color:rgba(243, 222, 202, 0.7); 
+    background-color:#f2ddc8; 
+}
+
+.col-md-3{
+    padding: 0.1em;
+    padding-bottom: 4em;
+    margin: 10px;
 }
 
 .card .card-body .card-text{
@@ -48,15 +54,15 @@ body{
 }
 
 .card .card-body h4{
-    color: #afaeae;
+    color: #7e7d7d;
 }
 
 .white-text {
-    color: #83c9bc !important;
+    color: #4097AA !important;
 }
 
 .incon-fas{
-    color:#83c9bc !important;
+    color:#4097AA !important;
 
 }
 
@@ -72,14 +78,14 @@ body{
 }
 
 .form-title{
-    color: #83c9bc  ;
+    color: #4097AA  ;
     font-weight: bold;
     font-size: 2.5em;
     text-align: center;
 }
 
 .form-subtitle{
-    color: #83c9bc;
+    color: #4097AA;
 }
 
 .form-text{
@@ -88,11 +94,12 @@ body{
 }
 
 .fa{
-    color: #83c9bc;
+    color: #4097AA;
 }
 
 .btn{
     color: #ffffff;
+    background-color: #4097AA;
 }
 
 .card-image{

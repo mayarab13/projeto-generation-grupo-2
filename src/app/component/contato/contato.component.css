@@ -5,7 +5,7 @@
 }
 
 .form-title{
-  color: #83c9b6;
+  color: #4097AA;
   font-weight: bold;
   font-size: 2.5em;
 }
@@ -17,14 +17,17 @@
 
 .btn{
   color: #ffff;
+  background-color: #4097AA;
 }
 .fa{
-  color: #83c9bc;
+  color: #4097AA;
 }
 
 .fundo{
-  background-image: url("../../../assets/images/contato.img.png");
-  background-size: 100%;
+  background-image: url("../../../assets/images/contact.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
 }
 
 .contato-form{

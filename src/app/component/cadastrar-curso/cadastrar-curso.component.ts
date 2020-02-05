@@ -11,7 +11,7 @@ import { CursoService } from 'src/app/service/curso.service';
 export class CadastrarCursoComponent implements OnInit {
 
   novo: boolean = false;
-  curso: Curso = new Curso(null, null, null, null, null, null);
+  curso: Curso = new Curso(null, null, null, null, null);
 
   constructor(
     private route: ActivatedRoute,

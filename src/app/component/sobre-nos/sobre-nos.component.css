@@ -1,10 +1,10 @@
 .cabecalho {
-    height: 2em;
-    width: 80em;
-    background-image: url('../../../assets/images/animacao-gif.gif');
-    background-size: 50%;
-    margin-top: 5em;
-}
+    height: 20em;
+    background-image: url('../../../assets/images/programe-se.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto; 
+    }
 
 #equipe {
     color: #fa9483;
@@ -13,7 +13,7 @@
 
 .sobre-nos {
     height: auto;
-    background:linear-gradient(to bottom, #ffffff, #f3decab0);
+    background:linear-gradient(to bottom, #ffffff, #e2c9b1b0);
     color: #2d4057;
     padding-bottom: 2em;
 }

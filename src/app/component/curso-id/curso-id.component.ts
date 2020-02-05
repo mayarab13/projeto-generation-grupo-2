@@ -10,7 +10,7 @@ import { CursoService } from 'src/app/service/curso.service';
 export class CursoIdComponent implements OnInit {
 
   id: number;
-  curso: Curso = new Curso(0, '','','',0,0);
+  curso: Curso = new Curso(null, null, null, null, null);
   constructor(private cursoService:CursoService) { }
 
   ngOnInit() {
