@@ -104,7 +104,6 @@ body{
 
 .card-image{
     background-image: url(../../../assets/images/ca-bg.png);
-    background-size: 100%;
+    width: 100%;
 
 }
-/*mudado 31-01 no HTML card-body ((<div class="card-body-1 rgba-light white-text z-depth-5)) -->> tirei o black*/

@@ -1,14 +1,16 @@
 /*Formatação Navbar*/
-
+.navbar{
+   padding: 0.2em
+}
 .nav-margin{
-   margin-right: 0.25em;
+   margin-right: 0.20em;
 }
 
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link  {
-   padding: 0.4em;
-   font-size: 0.8em;
-   margin-right: 0.1em; 
+   padding: 0.3em;
+   font-size: 0.9em;
+   margin-right: 0.3em; 
 }
 
 ul {
@@ -19,4 +21,3 @@ ul {
  li a:hover, .dropdown:hover .dropbtn {
    background-color: #f3decac0; 
  }
- 
